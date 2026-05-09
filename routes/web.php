@@ -12,6 +12,9 @@ Route::middleware('guest.filter')->group(function(){
 
 Route::middleware('auth.filter')->group(function(){
     Route::get('/',[HomeController::class,'dashboard']);
-    Route::get('/dashboard',[HomeController::class,'dashboard']);
+    
     Route::get('/logout',[LoginController::class,'logout']);
+
+    Route::get('/dashboard',[HomeController::class,'dashboard']);
+    Route::get('/products',[HomeController::class,'products']);
 });
