@@ -158,7 +158,7 @@
 </style>
 <div class="container">
     <div class="row text-center mb-5">
-        <h1>Dashboard</h1>
+        <h1>Prodducts</h1>
     </div>
     <div class="row justify-content-center align-items-center">
         <div class="col-md-12">
